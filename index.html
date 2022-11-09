@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test-Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header class="header-wrapper">
+        <div class="header-inner">
+            <div class="logo">
+                <img src="img/logo-icon.png" alt="logo-icon">
+                <span>Личный кабинет</span>
+            </div>
+            <div class="cabinet-information">
+                <div class="cabinet-icon">
+                    <img src="img/cabinet-icon.png" alt="cabinet-icon">
+                    <div class="cabinet-text">
+                        <p class="cabinet-text-content">Константин П</p>
+                        <p class="cabinet-text-subcontent">ID 441485</p>
+                    </div>
+                </div>
+                <div class="cabinet-icon">
+                    <div class="cabinet-circle"></div>
+                    <div class="cabinet-text">
+                        <p class="cabinet-text-content">Финансы и счета</p>
+                        <p class="cabinet-text-subcontent">1 050 280 тг</p>
+                    </div>
+                </div>
+                <div class="cabinet-circle __orange-circle"></div>
+            </div>
+            <div class="menu-burger">
+                <div class="menu-burger-inner">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <div class="cabinet-information __mobile">
+            <div class="cabinet-icon __mobile-icon">
+                <img src="img/cabinet-icon.png" alt="cabinet-icon">
+                <div class="cabinet-text">
+                    <p class="cabinet-text-content">Константин П</p>
+                    <p class="cabinet-text-subcontent">ID 441485</p>
+                </div>
+            </div>
+            <div class="cabinet-icon __mobile-icon">
+                <div class="cabinet-circle"></div>
+                <div class="cabinet-text">
+                    <p class="cabinet-text-content">Финансы и счета</p>
+                    <p class="cabinet-text-subcontent">1 050 280 тг</p>
+                </div>
+            </div>
+            <div class="cabinet-circle __orange-circle"></div>
+        </div>
+    </div>
+
+    <div class="sidebar-wrapper">
+        <div class="sidebar-inner">
+            <div class="sidebar-icons-list">
+                <li><a href="#"><img src="img/icon-link.png" alt="icon-link"></a></li>
+                <li><a href="#"><img src="img/icon-link-item2.png" alt="icon-link"></a></li>
+                <li><a href="#"><img src="img/icon-link-item3.png" alt="icon-link"></a></li>
+                <li><a href="#"><img src="img/icon-link-item4.png" alt="icon-link"></a></li>
+                <li><a href="#"><img src="img/icon-link-item5.png" alt="icon-link"></a></li>
+                <li><a href="#"><img src="img/icon-link-item6.png" alt="icon-link"></a></li>
+            </div>
+        </div>
+    </div>
+
+    <div class="conent-wrapper">
+        <div class="content-inner">
+            <div class="breadcrumb-nav">
+                <span><a href="#">Кабинет</a> / </span><span><a href="#">Крошки облако и тп</a> /</span>
+            </div>
+            <div class="new-server">
+                <div class="new-server-title">
+                    Создать новый сервер
+                </div>
+                <div class="new-server-description">
+                    Лид с кратким пояснением того, что здесь происходит. Ну или с объяснением возможностей. Лид с кратким пояснением того, что здесь происходит. Ну или с объяснением возможностей.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="server-name-wrapper">
+        <div class="server-name-inner content-inner">
+            <div class="server-name-title">
+                Название сервера и зона
+            </div>
+            <div class="server-name-input">
+                <div class="input-box">
+                    <input type="text" class="name-input" placeholder=" ">
+                    <span class="placeholder-text">Введите название сервера</span>    
+                </div>
+                <div class="input-box">
+                    <input type="text" class="name-input" placeholder=" ">
+                    <span class="placeholder-text">Зона</span>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="resourses-wrapper">
+        <div class="resourses-inner content-inner">
+            <div class="resourses-title">
+                Ресурсы
+            </div>
+            <div class="tabs-block" id="tabs">
+                <div class="tab __active" data-tab="#tab_1">Standart Line</div>
+                <div class="tab" data-tab="#tab_2">CPU Line</div>
+                <div class="tab" data-tab="#tab_3">Memory Line</div>
+                <div class="tab" data-tab="#tab_4">Произвольная конфигурация</div>
+                <div class="tab" data-tab="#tab_5">Мои конфигурации</div>
+                <hr>
+                <div class="tabcontent __active" id="tab_1">
+                    <div class="standard-line-content">
+                        <div class="standard-line-item"><strong>1</strong> CPU / <strong>2</strong> GB RAM</div>
+                        <div class="standard-line-item"><strong>1</strong> CPU / <strong>3</strong> GB RAM</div>
+                        <div class="standard-line-item"><strong>1</strong> CPU / <strong>4</strong> GB RAM</div>
+                        <div class="standard-line-item"><strong>2</strong> CPU / <strong>1</strong> GB RAM</div>
+                        <div class="standard-line-item"><strong>2</strong> CPU / <strong>2</strong> GB RAM</div>
+                        <div class="standard-line-item"><strong>2</strong> CPU / <strong>3</strong> GB RAM</div>
+                        <div class="standard-line-item"><strong>2</strong> CPU / <strong>4</strong> GB RAM</div>
+                        <div class="standard-line-item"><strong>2</strong> CPU / <strong>6</strong> GB RAM</div>
+                        <div class="standard-line-item"><strong>2</strong> CPU / <strong>8</strong> GB RAM</div>
+                        <div class="standard-line-item"><strong>4</strong> CPU / <strong>16</strong> GB RAM</div>
+                        <div class="standard-line-item"><strong>4</strong> CPU / <strong>24</strong> GB RAM</div>
+                        <div class="standard-line-item"><strong>10</strong> CPU / <strong>10</strong> GB RAM</div>
+
+                    </div>
+                </div>
+                <div class="tabcontent" id="tab_2"><span>Содержимое вкладки 2</span>
+                    <p>
+                        Задача организации, в особенности же новая модель организационной деятельности в значительной степени обуславливает создание дальнейших направлений развития. Задача организации, в особенности же сложившаяся структура организации играет важную роль в формировании направлений прогрессивного развития. Равным образом постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание соответствующий условий активизации.
+                    </p>
+                    <p>
+                        Равным образом начало повседневной работы по формированию позиции требуют определения и уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации дальнейших направлений развития. Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что укрепление и развитие структуры требуют определения и уточнения систем массового участия. Не следует, однако забывать, что рамки и место обучения кадров способствует подготовки и реализации систем массового участия. Задача организации, в особенности же реализация намеченных плановых заданий в значительной степени обуславливает создание новых предложений.
+
+
+                    </p>
+                </div>
+                <div class="tabcontent" id="tab_3"><span>Содержимое вкладки 3</span>
+                    <p>
+                        Таким образом рамки и место обучения кадров позволяет выполнять важные задания по разработке системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации форм развития. Повседневная практика показывает, что укрепление и развитие структуры требуют от нас анализа модели развития. Задача организации, в особенности же рамки и место обучения кадров позволяет выполнять важные задания по разработке соответствующий условий активизации. Идейные соображения высшего порядка, а также реализация намеченных плановых заданий представляет собой интересный эксперимент проверки дальнейших направлений развития. Не следует, однако забывать, что сложившаяся структура организации позволяет выполнять важные задания по разработке дальнейших направлений развития.
+                    </p>
+                </div>
+                <div class="tabcontent" id="tab_4"><span>Содержимое вкладки 4</span>
+                    <p>
+                        Повседневная практика показывает, что новая модель организационной деятельности играет важную роль в формировании форм развития. Таким образом начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Таким образом новая модель организационной деятельности требуют от нас анализа систем массового участия.
+                    </p>
+                </div>
+                <div class="tabcontent" id="tab_5"><span>Содержимое вкладки 5</span>
+                    <p>
+                        Повседневная практика показывает, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач. Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! укрепление и развитие структуры требуют определения и уточнения соответствующий условий активизации. С другой стороны постоянный количественный рост и сфера нашей активности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Таким образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации форм развития.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

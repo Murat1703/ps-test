@@ -1,0 +1,44 @@
+@media (max-width: 768px){
+    .standard-line-content{
+        justify-content: center;
+    }
+    .menu-burger{
+        display: block;
+    }
+    .cabinet-information{
+        display: none;
+    }
+    .cabinet-information.__mobile{
+        display: block;
+        background: #ffffff;
+        margin-top: 55px;
+        margin-left: 65px;
+        padding: 10px 0;
+    }
+    .cabinet-icon.__mobile-icon{
+        padding-bottom: 5px;
+    }
+    .server-name-input{
+        display: block;
+    }
+    .name-input{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 640px){
+    .server-name-input{
+        padding: 50px 10px;
+    }
+    .input-box{
+        width: 320px;
+    }
+}
+@media (max-width: 430px){
+    .input-box{
+        width: 230px;
+    }
+    .standard-line-item{
+        min-width: 0;
+        width: 100%;
+    }
+}
